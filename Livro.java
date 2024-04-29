@@ -1,25 +1,16 @@
 public class Livro{
 
-  public String titulo;
-  public String autor;
-  public int anoPublicacao;
-  public int qtd;
-  public boolean disponivel;
+  private String titulo;
+  private String autor;
+  private int anoPublicacao;
+  private int qtd;
+  private boolean disponivel;
  
 
   public Livro(){
 
   }
-
-  public Livro(int anoPublicacao, String autor, String titulo, int qtd, boolean disponivel) {
-
-    this.titulo = titulo;
-    this.autor = autor;
-    this.anoPublicacao = anoPublicacao;
-    this.qtd = qtd;
-    this.disponivel = true; 
-  }
-  
+ 
   public Livro(String titulo, String autor, int anoPublicacao, int qtd) {
 
   this.titulo = titulo;
@@ -30,12 +21,7 @@ public class Livro{
   }
  
   public boolean isDisponivel(){
-    if(this.qtd>0){
-      return this.disponivel = true;
-      }
-    else {
-    return this.disponivel = false;
-    }
+    return this.qtd>0;
   }
 
   public void setDisponivel(boolean disponivel){
