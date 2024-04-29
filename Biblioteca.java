@@ -48,13 +48,13 @@ public class Biblioteca {
     public void poemLivro(Livro livro){
 
       livro.poemLivro();
-      System.out.println("Quantidade disponivel: " + livro.getQtd());
+      System.out.println("Quantidade atualizada: " + livro.getQtd());
     }
 
     public void tiraLivro(Livro livro){
 
       livro.tiraLivro();
-      System.out.println("Quantidade disponivel: " + livro.getQtd());      
+      System.out.println("Quantidade atualizada: " + livro.getQtd());      
     }
 
     public void mostraLivros(){
