@@ -1,0 +1,8 @@
+Que tal criar um sistema de gerenciamento de biblioteca? Aqui está o exercício:
+1. Crie uma classe Livro com os seguintes atributos: titulo, autor, anoPublicacao e disponivel
+(um booleano indicando se o livro está disponível para empréstimo ou não).
+2. Crie uma classe Biblioteca que tenha uma lista de livros e métodos para adicionar livros à biblioteca,
+remover livros da biblioteca, verificar se um livro está disponível para empréstimo e emprestar um livro
+(marcando-o como não disponível) e devolver um livro (marcando-o como disponível).
+3. Implemente uma classe de teste para demonstrar o funcionamento do sistema, realizando operações como
+adicionar livros, emprestar e devolver livros, e verificar a disponibilidade de um livro específico.
